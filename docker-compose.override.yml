@@ -2,7 +2,7 @@ services:
   ollama:
     volumes:
       - /mnt/bigData/ollama/ollama:/root/.ollama
-      - /mnt/bigData/lmstudio:/lmstudio
+      - /mnt/bigData/models/llm:/lmstudio
     deploy:
       resources:
         reservations:
